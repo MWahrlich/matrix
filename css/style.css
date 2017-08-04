@@ -1,4 +1,5 @@
 @import url("components/form.css");
+@import url("components/video.css");
 
 body {
   margin: 0;
@@ -11,5 +12,5 @@ h1 {
 }
 
 .wrapper {
-  color: #1ec503;
+  color: #FFFFFF;
 }
