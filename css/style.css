@@ -1,0 +1,15 @@
+@import url("components/form.css");
+
+body {
+  margin: 0;
+  font-family: "Varela", sans-serif;
+  margin-top: 50px;
+  background: black;
+}
+h1 {
+  font-family: "Varela", sans-serif;
+}
+
+.wrapper {
+  color: #1ec503;
+}
