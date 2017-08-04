@@ -21,7 +21,7 @@
             <div class="filter"></div>
             <video autoplay loop class="fillWidth">
               <source src="videos/giphy.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-             <!--  <source src="videos/giphy.mp4" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser. -->
+              <!--  <source src="videos/giphy.mp4" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser. -->
             </video>
             <div class="poster hidden">
               <img src="images/giphy.png" alt="">
@@ -38,32 +38,40 @@
                   <div class="col-xs-6">
                     <div class="form-group form-color">
                       <label for="first-name">First name</label>
-                      <input type="text" class="form-control form-color" id="first-name" placeholder="Bob">
+                      <div class="input-green">
+                        <input type="text" class="form-control form-color" id="first-name" placeholder="Bob">
+                      </div>
                     </div>
                   </div>
                   <div class="col-xs-6">
                     <div class="form-group form-color">
                       <label for="last-name">Last name</label>
-                      <input type="text" class="form-control form-color" id="last-name" placeholder="Sponge">
+                      <div class="input-green">
+                        <input type="text" class="form-control form-color" id="last-name" placeholder="Sponge">
+                      </div>
                     </div>
                   </div>
                 </div>
                 <!-- Rest of the form -->
                 <div class="form-group form-color">
                   <label for="email">Email</label>
-                  <input type="email" class="form-control form-color" id="email" placeholder="Bob.sponge@email.com">
+                  <div class="input-green">
+                    <input type="email" class="form-control form-color" id="email" placeholder="Bob.sponge@email.com">
+                  </div>
                 </div>
                 <div class="form-group form-color">
                   <label for="password">Your password</label>
-                  <input type="password" class="form-control form-color" id="password" placeholder="Bob">
+                  <div class="input-green">
+                    <input type="password" class="form-control form-color" id="password" placeholder="Bob">
+                  </div>
                 </div>
                 <div class="form-group form-color">
                   <label for="How do you know us?">How do you know us?</label>
-                  <select id="referrer" class="form-control form-color">
-                    <option value="ruby">Facebook</option>
-                    <option value="css">Google Search</option>
-                    <option value="javascript">A friend</option>
-                  </select>
+                    <select id="referrer" class="form-control form-color input-green">
+                      <option value="ruby">Facebook</option>
+                      <option value="css">Google Search</option>
+                      <option value="javascript">A friend</option>
+                    </select>
                 </div>
                 <input type="submit" value="Sign up" class="btn btn-primary btn-green">
               </form>

@@ -7,7 +7,7 @@
 }
 
 .form-color::-webkit-input-placeholder {
-  color:#FFFFFF;
+  color:#5CB83B;
 }
 /*##5CB83B*/
 
@@ -16,29 +16,34 @@
 }
 
 .form-color:focus {
-    outline: none !important;
-    border:1px solid #5CB83B;
-    box-shadow: 0 0 30px #5CB83B;
+  outline: none !important;
+  border:1px solid #5CB83B;
+  box-shadow: 0 0 30px #5CB83B;
 }
 
 .btn-green {
-  background-color: transparent;
-  color: #FFFFFF;
+  background-color: black;
+  color: #5CB83B;
   border-color: #5CB83B;
 }
 
 .btn-green:hover {
-  background-color: transparent;
-  color: #FFFFFF;
+  background-color: black;
+  color: #5CB83B;
   border-color: #5CB83B;
 }
 
 .btn-green:focus {
-    outline: none !important;
-    border:1px solid #5CB83B;
-    box-shadow: 0 0 30px #5CB83B;
+  outline: none !important;
+  border:1px solid #5CB83B;
+  box-shadow: 0 0 30px #5CB83B;
 }
 
 .btn-green:active {
   border-color: #FFFFFF;
+}
+
+.input-green {
+  background-color: black;
+  color: #5CB83B;
 }
